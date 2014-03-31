@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Events">
+      <UniqueIdentifier>{2f7dd34a-cce2-4c39-bdc9-9cf5d621edb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Objects">
+      <UniqueIdentifier>{fe85d315-ce44-4691-97ee-119e17dcc7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Layer">
+      <UniqueIdentifier>{3e156bd5-015d-45c2-b5ca-03c17544ba3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Libraries">
+      <UniqueIdentifier>{1131ee3f-0980-4b2e-9a23-06db461646e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Libraries\GBox2D">
+      <UniqueIdentifier>{ec8aa9bd-aea8-4ee7-9a5e-1eb762eead7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Libraries\GLESRender">
+      <UniqueIdentifier>{7d01e47a-519e-479a-a329-a89590676f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Libraries\SneakyJoystick">
+      <UniqueIdentifier>{f6820cc5-cd87-4c66-88fc-ea8936389d6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Events\GameContactListener.cpp">
+      <Filter>Classes\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Objects\Enemy.cpp">
+      <Filter>Classes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Objects\Player.cpp">
+      <Filter>Classes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Objects\Potion.cpp">
+      <Filter>Classes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Objects\b2Sprite.cpp">
+      <Filter>Classes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Objects\b2SpriteFactory.cpp">
+      <Filter>Classes\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layers\ControlGameLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Libraries\GBox2D\GB2ShapeCache-x.cpp">
+      <Filter>Classes\Libraries\GBox2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Libraries\GLESRender\GLES-Render.cpp">
+      <Filter>Classes\Libraries\GLESRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Libraries\SneakyJoystick\SneakyButtonSkinnedBase.cpp">
+      <Filter>Classes\Libraries\SneakyJoystick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Libraries\SneakyJoystick\SneakyJoystick.cpp">
+      <Filter>Classes\Libraries\SneakyJoystick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Libraries\SneakyJoystick\SneakyJoystickSkinnedBase.cpp">
+      <Filter>Classes\Libraries\SneakyJoystick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Libraries\SneakyJoystick\SneakyButton.cpp">
+      <Filter>Classes\Libraries\SneakyJoystick</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Events\GameContactListener.h">
+      <Filter>Classes\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\b2SpriteFactory.h">
+      <Filter>Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\Enemy.h">
+      <Filter>Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\Player.h">
+      <Filter>Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\Potion.h">
+      <Filter>Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\b2Sprite.h">
+      <Filter>Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layers\ControlGameLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Libraries\GBox2D\GB2ShapeCache-x.h">
+      <Filter>Classes\Libraries\GBox2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Libraries\GLESRender\GLES-Render.h">
+      <Filter>Classes\Libraries\GLESRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Libraries\SneakyJoystick\SneakyButton.h">
+      <Filter>Classes\Libraries\SneakyJoystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Libraries\SneakyJoystick\SneakyButtonSkinnedBase.h">
+      <Filter>Classes\Libraries\SneakyJoystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Libraries\SneakyJoystick\SneakyJoystick.h">
+      <Filter>Classes\Libraries\SneakyJoystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Libraries\SneakyJoystick\SneakyJoystickSkinnedBase.h">
+      <Filter>Classes\Libraries\SneakyJoystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\b2SpriteObserver.h">
+      <Filter>Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\HealthObserver.h">
+      <Filter>Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Objects\ManaObserver.h">
+      <Filter>Classes\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
